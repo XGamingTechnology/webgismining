@@ -1,48 +1,87 @@
 # Dependencies
 node_modules/
-.pnp/
-.pnp.js
 
-# Next.js build output
-.next/
-out/
-build/
+# Build outputs
 dist/
+build/
+target/
 
-# Environment variables (JANGAN di-commit!)
-.env*.local
-*.env
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.python-version
 
-# IDE & Editor
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+*.tmp
 
-# OS files
-.DS_Store
-Thumbs.db
+# Environment variables
+.env
+.env.local
+*.env.*
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
-
-# Testing
+# Coverage
 coverage/
-.nyc_output/
+htmlcov/
+.coverage
 
-# Misc
-*.log
-temp/
-tmp/
-.cache/
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Optional: Kalau pakai Docker
-docker-compose.override.yml
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Julia
+julia-*/
+
+# Zig
+zig*/
