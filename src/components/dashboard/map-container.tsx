@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Map, { Marker, Popup, NavigationControl, GeolocateControl, FullscreenControl, ScaleControl, Source, Layer } from "react-map-gl";
+import { Map, Marker, Popup, NavigationControl, GeolocateControl, FullscreenControl, ScaleControl, Source, Layer } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Truck } from "lucide-react";
 
