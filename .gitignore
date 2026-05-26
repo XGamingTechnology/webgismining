@@ -5,8 +5,7 @@ node_modules/
 # Build outputs
 dist/
 build/
-.next/
-out/
+target/
 
 # Python
 __pycache__/
@@ -17,47 +16,44 @@ __pycache__/
 env/
 venv/
 .venv/
-.env
-.env.local
-.env.*
-.envrc
+.ENV
+.python-version
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
 
 # Logs
 *.log
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
 
-# Editor
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
+*~
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# OS
+.DS_Store
+Thumbs.db
 
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest
-.pytest_cache/
-
-# Compressed files
+# Archives
 *.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
 *.gz
+*.rar
+*.7z
 *.tar
-*.tgz
 *.bz2
 *.xz
-*.7z
-*.rar
 *.zst
 *.lz4
 *.lzh
@@ -68,8 +64,10 @@ dmypy.json
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
 ```
